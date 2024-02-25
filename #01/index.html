@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicío</title>
+    <link rel="icon" type="image/x-icon" href="./images1/prumma.webp">
+    <link rel="stylesheet" href="./CSS1/ini.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            Equipe&nbsp;Gênesis
+        </header>
+
+        <div id="container2">
+
+            <div id="pagina">
+
+                <span style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;font-size:30px">Vamos aprender
+                    coisas novas ?</span>
+
+                <div class="botoes">
+                    <a href="./for.html"><span class="sim botao">SIM</span></a>
+
+                    <a href="./for.html"><span class="nao botao">NÃO</span></a>
+                    <script>
+                        document.querySelector('.nao').addEventListener('mouseover', function () {
+                            document.querySelector('.nao').textContent = 'SIM';
+                        });
+
+                        document.querySelector('.nao').addEventListener('mouseout', function () {
+                            document.querySelector('.nao').textContent = 'NÃO';
+                        });
+                    </script>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="footer">
+            <nav>
+                <ul class="list">
+                    <li><span style="text-align: left;display:block;">Contatos:</span>
+                        <ul class="list2">
+                            <li class="contato" style="text-align: left;"><a style="text-decoration: none;color: white;"
+                                    target="_blank" href="mailto:kaikyvasques321@gmail.com"><img
+                                        style="border: 1px solid black; border-radius: 9px;" alt="email"
+                                        src="../images/gmail.png" height="30px"
+                                        width="40px">kaikyvasques321@gmail.com</a></li>
+                            <li class="contato" style="text-align: center;"><a
+                                    style="text-decoration: none;color: white;" target="_blank"
+                                    href="https://www.instagram.com/kaiky_vasques?utm_source=qr&igsh=MTBqc3Z4dm8xbjZybQ=="><img
+                                        alt="instagram" src="../images/instagram.png" height="30px">kaiky_vasques</a>
+                            </li>
+                            <li class="contato" style="text-align: right;"><a style="text-decoration: none;color:white"
+                                    target="_blank" href="https://wa.me/qr/W3R4ODNF6ZK4C1"><img alt="whatsapp"
+                                        src="../images/whatsapp.png" height="30px">+55 (21) 968924839</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</body>
+
+</html>

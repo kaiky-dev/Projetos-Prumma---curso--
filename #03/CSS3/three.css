@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Anta", sans-serif;
+}
+
+.form {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 12px;
+    width: 308px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.form h1{
+    margin-top: 12px;
+    color: white;
+}
+
+.form p{
+    color: white;
+}
+
+.form input {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px;
+    height: 20px;
+    font-size: 18px
+}
+
+.estados {
+    margin: 20px;
+    display: block;
+    position: relative;
+    margin: 20px 0;
+}
+
+.form select {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px;
+    height: 48px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form select option{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.form input[type="submit"] {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+    color: white;
+    cursor: pointer;
+    background: radial-gradient(circle, rgba(114,137,218,1) 0%, rgba(88,100,140,1) 100%, rgba(66,69,73,1) 100%, rgba(114,137,218,1) 100%);
+    border-radius: 4px
+}
+
+.content {
+    background: rgb(219, 0, 255);
+    background: radial-gradient(circle, rgba(219, 0, 255, 1) 0%, rgba(215, 0, 255, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
+    padding: 30px 0;
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+    background-color: #000000;
+    font-family: "Anta", sans-serif;
+    padding: 12px;
+    color: #ffffff;
+    text-shadow: 2px 2px rgb(212, 0, 255);
+    border-bottom: 6px solid rgba(212, 0, 255, 0.800);
+    cursor:none
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 12px;
+    color: #ffffff;
+    text-shadow: 1px 1px rgb(212, 0, 255);
+    border-top: 3px solid rgba(212, 0, 255, 0.800);
+    position: relative;
+    bottom: 0;
+    display: block;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.list2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.contato {
+    margin: 16px;
+    display: inline-block;
+}
+
+@media screen and (min-height:654px){
+    .content{
+        height: 64vh;
+    }
+}
