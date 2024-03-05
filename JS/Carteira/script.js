@@ -1,9 +1,7 @@
-// Programa de aptidão a carteira de motorista
-
+// Perguntando idade e transformando o resultado de "string" para "number"
 let idade = parseInt(prompt("Qual a sua idade"));
 
-console.log(idade)
-
+// Verificando aptidão e retornado o resultado
 if(idade >= 18){
     alert("Apto a tirar sua carteira de motorista.")
 }
