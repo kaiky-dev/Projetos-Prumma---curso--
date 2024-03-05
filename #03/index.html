@@ -25,42 +25,56 @@
                     <input type="email" name="email" placeholder="E-mail">
                     <div class="estados">
                         <select name="estado">
-                            <option>- Localidade -</option>
-                            <option value="AC">Acre</option>
-                            <option value="AL">Alagoas</option>
-                            <option value="AP">Amapá</option>
-                            <option value="AM">Amazonas</option>
-                            <option value="BA">Bahia</option>
-                            <option value="CE">Ceará</option>
-                            <option value="DF">Distrito Federal</option>
-                            <option value="ES">Espírito Santo</option>
-                            <option value="GO">Goiás</option>
-                            <option value="MA">Maranhão</option>
-                            <option value="MT">Mato Grosso</option>
-                            <option value="MS">Mato Grosso do Sul</option>
-                            <option value="MG">Minas Gerais</option>
-                            <option value="PA">Pará</option>
-                            <option value="PB">Paraíba</option>
-                            <option value="PR">Paraná</option>
-                            <option value="PE">Pernambuco</option>
-                            <option value="PI">Piauí</option>
-                            <option value="RJ">Rio de Janeiro</option>
-                            <option value="RN">Rio Grande do Norte</option>
-                            <option value="RS">Rio Grande do Sul</option>
-                            <option value="RO">Rondônia</option>
-                            <option value="RR">Roraima</option>
-                            <option value="SC">Santa Catarina</option>
-                            <option value="SP">São Paulo</option>
-                            <option value="SE">Sergipe</option>
-                            <option value="TO">Tocantins</option>
+                            <optgroup label="Região Norte">
+                                <option value="AC">Acre</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="PA">Pará</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="TO">Tocantins</option>
+                            </optgroup>
+                        
+                            <optgroup label="Região Nordeste">
+                                <option value="AL">Alagoas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="SE">Sergipe</option>
+                            </optgroup>
+                        
+                            <optgroup label="Região Centro-Oeste">
+                                <option value="DF">Distrito Federal</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                            </optgroup>
+                        
+                            <optgroup label="Região Sudeste">
+                                <option value="ES">Espírito Santo</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="SP">São Paulo</option>
+                            </optgroup>
+                        
+                            <optgroup label="Região Sul">
+                                <option value="PR">Paraná</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="SC">Santa Catarina</option>
+                            </optgroup>
                         </select>
+                        
 
                         <input type="submit">
                     </div>
                 </form>
-            </div>
+            </div><!--Form-->
 
-        </div>
+        </div><!--Content-->
         <footer>
             <nav>
                 <ul class="list">
@@ -81,20 +95,20 @@
                                         src="../images/whatsapp.png" height="30px">+55 (21) 968924839</a></li>
                         </ul>
                     </li>
-                </ul>
+                </ul><!--List / Contatos-->
             </nav>
         </footer>
-    </div>
+    </div><!--Container-->
 
     <script>
-        var span = document.getElementsByTagName("span")[0];
+        var span = document.getElementsByTagName("header")[0];
 
         span.addEventListener("mouseover", function () {
-            header.textContent = "Feito por Kaiky Vasques";
+            header.innerHTML = "Feito por Kaiky Vasques";
         });
 
         span.addEventListener("mouseout", function () {
-            header.textContent = "Equipe Gênesis"
+            header.innerHTML = "Equipe Gênesis"
         })
     </script>
 

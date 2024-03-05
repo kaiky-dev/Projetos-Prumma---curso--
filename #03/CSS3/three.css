@@ -4,6 +4,8 @@
     font-family: "Anta", sans-serif;
 }
 
+/*Form*/
+
 .form {
     background-color: rgb(0, 0, 0);
     border: 2px solid white;
@@ -70,6 +72,8 @@
     border-radius: 4px
 }
 
+/*Others*/
+
 .content {
     background: rgb(219, 0, 255);
     background: radial-gradient(circle, rgba(219, 0, 255, 1) 0%, rgba(215, 0, 255, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
@@ -85,7 +89,6 @@ header {
     color: #ffffff;
     text-shadow: 2px 2px rgb(212, 0, 255);
     border-bottom: 6px solid rgba(212, 0, 255, 0.800);
-    cursor:none
 }
 
 footer {
