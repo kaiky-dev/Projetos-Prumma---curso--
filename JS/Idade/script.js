@@ -1,8 +1,8 @@
 // Datas de nascimento
 alert("Responda as perguntas a seguir somente com os numéros respectivos.")
-let yearBorn =parseInt(prompt("Em qual ano você nasceu")) ;
-let monthBorn =parseInt(prompt("Em qual mês você nasceu ")) ;
-let dayBorn =parseInt(prompt("Em qual dia você nasceu")) ;
+let yearBorn = parseInt(prompt("Em qual ano você nasceu?"));
+let monthBorn = parseInt(prompt("Em qual mês você nasceu?"));
+let dayBorn = parseInt(prompt("Em qual dia você nasceu?"));
 
 // Datas atuais
 let currentDate = new Date();
@@ -24,5 +24,5 @@ if (currentMonth < monthBorn || (currentMonth == monthBorn && currentDay < dayBo
 };
 
 // Dizendo a idade
-alert("Você tem " + age + " anos.")
+alert("Você tem " + age + " anos.");
 
