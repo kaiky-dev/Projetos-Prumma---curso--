@@ -15,12 +15,12 @@ let userDate = new Date(year, month - 1, day);
 // Dia da semana
 let weekDay = userDate.toLocaleString("pt-BR", { weekday: "long" });
 
-alert(userDate + " ,o dia da semana é " + weekDay + ".");
+alert(day + "/" + month + "/" + year + " ,o dia da semana é " + weekDay + ".");
 
 // Data de nascimento
-let dayBorn = parseInt(prompt("Em que dia você nasceu"));
-let monthBorn = parseInt(prompt("Em que mês você nasceu"));
-let yearBorn = parseInt(prompt("Em que ano você nasceu"));
+let dayBorn = parseInt(prompt("Em que dia você nasceu?"));
+let monthBorn = parseInt(prompt("Em que mês você nasceu?"));
+let yearBorn = parseInt(prompt("Em que ano você nasceu?"));
 
 // Calculo da idade
 function calcBirth(year) {
