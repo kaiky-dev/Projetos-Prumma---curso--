@@ -2,9 +2,9 @@
 // ( curiosidade: Os exemplos formam a data de lançamento da primeita versão do javascript )
 alert("Responda as perguntas a seguir somente com os numéros respectivos.");
 
-let yearBorn = parseInt(prompt("Em qual ano você nasceu? (Exemplo: 04)"));
+let yearBorn = parseInt(prompt("Em qual ano você nasceu? (Exemplo: 1995)"));
 let monthBorn = parseInt(prompt("Em qual mês você nasceu? (Exemplo: 12)"));
-let dayBorn = parseInt(prompt("Em qual dia você nasceu? (Exemplo: 1995)"));
+let dayBorn = parseInt(prompt("Em qual dia você nasceu? (Exemplo: 04)"));
 
 // Data atual
 let currentDate = new Date();
