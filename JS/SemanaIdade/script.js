@@ -36,5 +36,5 @@ if (currentMonth < monthBorn || (currentMonth == monthBorn && currentDay < dayBo
 };
 
 // Dizendo a idade
-alert("Você tem "+ age + " anos.");
+alert("Você tem " + age + " anos.");
 
