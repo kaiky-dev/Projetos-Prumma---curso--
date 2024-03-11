@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./index.css">
+
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anta&family=Inter:wght@100..900&family=Madimi+One&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anta&family=Inter:wght@100..900&family=Madimi+One&family=Quicksand:wght@300..700&family=Style+Script&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="top_bar">
+        <div class="logo">
+            <h2><a class="link" href="#">Mude . cor</a></h2>
+        </div><!--LOGO-->
+
+        <div class="nav_menu">
+            <ul>
+                <li><a class="link active" href="#">Início</a></li>
+                <li><a class="link" href="#">Contatos</a></li>
+                <li><a class="link" href="#">Sobre</a></li>
+            </ul>
+
+        </div><!--Menu-->
+    </nav><!--Top Bar-->
+
+    <div class="content">
+
+        <div class="box red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam magnam odio cumque ex
+            numquam debitis consectetur, minima illum accusantium? Dolore laboriosam odio tempore adipisci molestias
+            nobis incidunt vitae eaque suscipit!</div>
+
+        <div class="box orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatibus iste quam,
+            earum praesentium blanditiis eius nulla id omnis libero? Temporibus voluptas dicta maiores odio
+            reprehenderit reiciendis doloribus molestiae eos!</div>
+
+        <div class="box yellow">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum sunt, dolores esse
+            laudantium officia dicta quas odit. Ducimus minus, animi nemo eum fuga debitis, quae aperiam qui molestias
+            reiciendis repellat?</div>
+
+        <div class="box blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sit voluptates itaque
+            quo totam nostrum expedita voluptas corporis at iusto accusamus, sequi corrupti commodi harum quae cum nam
+            repudiandae. Voluptatem.</div>
+
+        <div class="box form_color">
+            <input type="color" id="input_color">
+        </div>
+
+        <div class="box pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error suscipit consequatur
+            laboriosam illum. Quis debitis laudantium in. Tempora ea aperiam veritatis molestias. At, aliquid natus
+            minima odio inventore quae deleniti.</div>
+
+        <div class="box green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis est quae maiores
+            exercitationem, atque magni, corrupti rerum, accusamus beatae repellendus velit repellat? Soluta
+            exercitationem accusamus inventore eveniet a. Nesciunt, iste?</div>
+
+        <div class="box gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta animi vero deserunt labore
+            saepe eius incidunt tenetur in sequi illum! Aspernatur ut deleniti aliquid in esse rem omnis ipsam delectus!
+        </div>
+
+        <div class="box black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aperiam odit ut sint harum
+            excepturi quam sed pariatur maiores, iure, officiis impedit mollitia doloribus maxime laborum id
+            perspiciatis, numquam hic.</div>
+    </div><!--Content-->
+
+    <script>
+
+        // Buscando os elementos
+        let input_color = document.getElementById("input_color");
+
+        let content = document.querySelector(".content");
+    
+        // Evento para que o valor do input (input_color) seja alterado simultaneamente a mudança escolhida
+        input_color.addEventListener("input", function () {
+            content.style.color = input_color.value;
+        });
+    </script>
+    
+</body>
+
+</html>
