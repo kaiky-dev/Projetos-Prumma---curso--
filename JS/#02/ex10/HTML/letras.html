@@ -6,7 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./index.css">
+
+    <!--Links-->
+    <link rel="stylesheet" href="../CSS/letras.css">
+    <link rel="stylesheet" href="../CSS/index.css">
 
 
     <!--Font-->
@@ -24,21 +27,21 @@
         href="https://fonts.googleapis.com/css2?family=Anta&family=Inter:wght@100..900&family=Madimi+One&family=Quicksand:wght@300..700&family=Style+Script&display=swap"
         rel="stylesheet">
 
-    <title>Document</title>
+    <title>Letras</title>
 </head>
 
 <body>
 
     <nav class="top_bar">
         <div class="logo">
-            <h2><a class="link" href="#">Mude . cor</a></h2>
+            <h2><a class="link" href="./index.html">Mude . cor</a></h2>
         </div><!--LOGO-->
 
         <div class="nav_menu">
             <ul>
-                <li><a class="link active" href="#">Início</a></li>
-                <li><a class="link" href="#">Contatos</a></li>
-                <li><a class="link" href="#">Sobre</a></li>
+                <li><a class="link" href="./index.html">Início</a></li>
+                <li><a class="link active" href="#">Letras</a></li>
+                <li><a class="link" href="./fundo.html">Fundo</a>
             </ul>
 
         </div><!--Menu-->
@@ -82,20 +85,7 @@
             excepturi quam sed pariatur maiores, iure, officiis impedit mollitia doloribus maxime laborum id
             perspiciatis, numquam hic.</div>
     </div><!--Content-->
-
-    <script>
-
-        // Buscando os elementos
-        let input_color = document.getElementById("input_color");
-
-        let content = document.querySelector(".content");
-    
-        // Evento para que o valor do input (input_color) seja alterado simultaneamente a mudança escolhida
-        input_color.addEventListener("input", function () {
-            content.style.color = input_color.value;
-        });
-    </script>
-    
+    <script src="../JS/letras.js"></script>
 </body>
 
 </html>
