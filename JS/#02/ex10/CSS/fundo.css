@@ -1,0 +1,61 @@
+/*Positions*/
+.content {
+    height: 90.9vh;
+    background-color: #324B4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_background {
+    height: 40%;
+    width: 50%;
+    max-width: 600px;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form_background .inputs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+}
+
+
+/*Styles*/
+
+.form_background {
+    background-color: rgba(255, 255, 255, 0.800);
+    border-radius: 12px;
+    position: relative;
+}
+
+.form_background .text h2 {
+    text-align: center;
+    margin-bottom: 6px
+}
+
+.form_background .text p {
+    color: rgba(0, 0, 0, 0.900);
+    text-align: center;
+}
+
+.form_background .inputs {
+    padding: 0 6%;
+}
+
+.form_background #input_text {
+    width: 200px;
+    height: 40px;
+    padding: 6px;
+    border: 1px solid black;
+}
+
+.form_background #input_color {
+    width: 40px;
+    height: 40px;
+}
