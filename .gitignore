@@ -1,0 +1,10 @@
+# Arquivos e diretórios do Visual Studio
+.vscode/
+.vs/
+*.suo
+*.sln
+*.user
+*.userosscache
+*.suo
+*.cache
+*.gpState
